@@ -103,10 +103,10 @@ BOARD_HEIGHT = "30cm"
 BOARD_SIZE = (BOARD_WIDTH, BOARD_HEIGHT)
 CSS_STYLES = """
     .background { fill: white; }
-    .line { stroke: red; stroke-width: 0.8mm; }
+    .line { stroke: black; stroke-width: 0.8mm; }
     .blacksquare { fill: indigo; }
-    .bluesquare { fill: blue ; }
-    .highlightsquare { fill: green; }
+    .bluesquare { fill: white ; }
+    .highlightsquare { fill: red; }
 """
 
 #    .line { stroke: firebrick; stroke-width: .1mm; }
@@ -528,9 +528,9 @@ def test_01(res_lst):
 
     # peace_symbol
     #
-    filepath_mask  = "./png_masks/png_mask_peace_symbol_small.png"
-    cell_len       = 6 # 10 
-    maze_name      = "peace_symbol_maze"
+    filepath_mask  = "./png_masks/BlackMask.png"
+    cell_len       = 13 # 10 
+    maze_name      = "Annihilaion_symbol_maze"
     color_mask_lst = [ (0, 0, 0) ]
 
 
