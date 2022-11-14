@@ -78,7 +78,7 @@ Note: This program was tested on Windows and Linux but it should also work on MA
 Have fun! <br>
 <br>
 <br>
-## How to setup the virtual environment and the packages in Anaconda for the project Linux and Windows.
+## How to setup the virtual environment and the packages in venv for the project Linux and Windows.
 <br>
 See the conda version: <br>
 $ conda -V <br>
@@ -120,12 +120,12 @@ $ conda remove -n yourenvname -all <br>
 ex: $ conda remove -n maze_generator -all <br>
 <br>
 <br>
-### How to instal the libs/packages for the maze_generator package (always add -n maze_generator).
-$ conda install -n maze_generator -c omnia svgwrite <br>
-$ conda install -n maze_generator -c conda-forge svglib <br>
-$ conda install -n maze_generator -c conda-forge imageio <br>
-$ conda install -n maze_generator -c conda-forge pillow <br>
-$ conda install -n maze_generator -c conda-forge cssselect2 <br>
+### How to instal the libs/packages for the maze_generator package.
+pip install svgwrite <br>
+pip install svglib==0.9.0 <br>
+pip install imageio <br>
+pip install pillow <br>
+pip install cssselect2 <br>
 <br>
 Install FFMPEG: <br>
 Ubuntu already comes with FFMPEG but you may need to update it. <br>
